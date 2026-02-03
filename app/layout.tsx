@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${barlowSemiCondensed.variable} antialiased`}>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
