@@ -2,64 +2,77 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="">
+      <p>Daniel Clifford Verified Graduate</p>
+
+      <p>
+        I received a job offer mid-course, and the subjects I learned were
+        current, if not more so, in the company I joined. I honestly feel I got
+        every penny’s worth.
+      </p>
+
+      <p>
+        “ I was an EMT for many years before I joined the bootcamp. I’ve been
+        looking to make a transition and have heard some people who had an
+        amazing experience here. I signed up for the free intro course and found
+        it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was
+        the best - and most grueling - time of my life. Since completing the
+        course, I’ve successfully switched careers, working as a Software
+        Engineer at a VR startup. ”
+      </p>
+
+      <p>Jonathan Walters Verified Graduate</p>
+
+      <p>The team was very supportive and kept me motivated</p>
+
+      <p>
+        “ I started as a total newbie with virtually no coding skills. I now
+        work as a mobile engineer for a big company. This was one of the best
+        investments I’ve made in myself. ”
+      </p>
+
+      <p>Jeanette Harmon Verified Graduate</p>
+
+      <p>An overall wonderful and rewarding experience</p>
+
+      <p>
+        “ Thank you for the wonderful experience! I now have a job I really
+        enjoy, and make a good living while doing something I love. ”
+      </p>
+
+      <p>Patrick Abrams Verified Graduate</p>
+
+      <p>
+        Awesome teaching support from TAs who did the bootcamp themselves.
+        Getting guidance from them and learning from their experiences was easy.
+      </p>
+
+      <p>
+        “ The staff seem genuinely concerned about my progress which I find
+        really refreshing. The program gave me the confidence necessary to be
+        able to go out in the world and present myself as a capable junior
+        developer. The standard is above the rest. You will get the personal
+        attention you need from an incredible community of smart and amazing
+        people. ”
+      </p>
+
+      <p>Kira Whittle Verified Graduate</p>
+
+      <p>Such a life-changing experience. Highly recommended!</p>
+
+      <p>
+        “ Before joining the bootcamp, I’ve never written a line of code. I
+        needed some structure from professionals who can help me learn
+        programming step by step. I was encouraged to enroll by a former student
+        of theirs who can only say wonderful things about the program. The
+        entire curriculum and staff did not disappoint. They were very hands-on
+        and I never had to wait long for assistance. The agile team project, in
+        particular, was outstanding. It took my learning to the next level in a
+        way that no tutorial could ever have. In fact, I’ve often referred to it
+        during interviews as an example of my developent experience. It
+        certainly helped me land a job as a full-stack developer after receiving
+        multiple offers. 100% recommend! ”
+      </p>
     </div>
   );
 }
