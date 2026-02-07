@@ -33,23 +33,13 @@ const testimonials: Testimonial[] = [
     style: "gray",
   },
   {
-    name: "Kira Whittle",
-    verified: "Verified Graduate",
-    picture: "image-kira.jpg",
-    highlight: "Such a life-changing experience. Highly recommended!",
-    quote:
-      " “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my development experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”",
-    tall: true,
-    style: "white",
-  },
-  {
     name: "Jeanette Harmon",
     verified: "Verified Graduate",
     picture: "image-jeanette.jpg",
     highlight: "An overall wonderful and rewarding experience",
     quote:
       "“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”",
-    style: "white",
+    style: "white lg:row-start-2",
   },
   {
     name: "Patrick Abrams",
@@ -60,15 +50,25 @@ const testimonials: Testimonial[] = [
     quote:
       "“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”",
     wide: true,
-    style: "dark",
+    style: "dark lg:row-start-2",
+  },
+  {
+    name: "Kira Whittle",
+    verified: "Verified Graduate",
+    picture: "image-kira.jpg",
+    highlight: "Such a life-changing experience. Highly recommended!",
+    quote:
+      " “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my development experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”",
+    tall: true,
+    style: "white col",
   },
 ];
 
 export default function Home() {
   return (
     <section className="min-h-dvh flex justify-center items-center">
-      <div className="min-w-sm max-w-5xl my-32">
-        <div className="grid grid-cols-12 grid-rows-2 gap-x-8 gap-y-6">
+      <div className="min-w-xs max-w-5xl my-32 mx-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 lg:grid-rows-2 gap-x-8 gap-y-6">
           {testimonials.map((t, idx) => (
             <TestimonialCard key={idx} testimonial={t} />
           ))}

@@ -52,9 +52,11 @@ body {
   color: var(--color-gray-500);
 }
 
-.quotationMark {
-  background-image: url("/bg-pattern-quotation.svg");
-  background-repeat: no-repeat;
-  background-position: top right 4rem;
-  background-size: 8rem;
+@media (width > 64rem) {
+  .quotationMark {
+    background-image: url("/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 4rem;
+    background-size: 8rem;
+  }
 }

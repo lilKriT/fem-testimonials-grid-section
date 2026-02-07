@@ -10,7 +10,7 @@ const TestimonialCard = ({ testimonial }: Props) => {
 
   return (
     <div
-      className={`${t.wide ? "col-span-6" : "col-span-3"} ${t.tall ? "row-span-2" : "row-span-1"} flex flex-col gap-4 p-8 rounded-3xl shadow-[30px_30px_50px_0px_rgba(0,0,0,30%)] ${t.style}`}
+      className={`${t.wide ? "lg:col-span-6" : "lg:col-span-3"} ${t.tall ? "row-span-2" : "row-span-1"} flex flex-col gap-4 p-8 rounded-3xl shadow-[30px_30px_50px_0px_rgba(0,0,0,30%)] ${t.style}`}
     >
       <div className="flex items-center gap-4">
         {t.picture && (
