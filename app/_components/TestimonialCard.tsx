@@ -13,15 +13,15 @@ const TestimonialCard = ({ testimonial }: Props) => {
       className={`${t.wide ? "lg:col-span-6" : "lg:col-span-3"} ${t.tall ? "row-span-2" : "row-span-1"} flex flex-col gap-4 p-8 rounded-3xl shadow-[30px_30px_50px_0px_rgba(0,0,0,30%)] ${t.style}`}
     >
       <div className="flex items-center gap-4">
-        {t.picture && (
-          <Image
-            src={`/${t.picture}`}
-            alt={`Picture of ${t.name}`}
-            width={56}
-            height={56}
-            className="rounded-full w-10 aspect-square"
-          />
-        )}
+        <Image
+          src={`/${t.picture}`}
+          alt={`Picture of ${t.name}`}
+          width={56}
+          height={56}
+          className="rounded-full w-10 aspect-square"
+          unoptimized
+        />
+
         <div className="flex flex-col items-start">
           <h2 className="font-semibold">{t.name}</h2>
           <p>{t.verified}</p>
