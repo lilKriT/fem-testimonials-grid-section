@@ -53,4 +53,8 @@ body {
 }
 
 .quotationMark {
+  background-image: url("/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 4rem;
+  background-size: 8rem;
 }
